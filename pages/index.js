@@ -52,47 +52,40 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image className="mx-auto"src={landscape} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Web Development
+                Lawn Care
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+              We will ensure top-notch maintenance for your lawn by utilizing effective communication, suitable equipment, and skilled professionals.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Specific Services Offered:</h4>
+              <p className="text-gray-800 py-1">Mowing</p>
+              <p className="text-gray-800 py-1">Weed Eating</p>
+              <p className="text-gray-800 py-1">Tree Trimming</p>
+              <p className="text-gray-800 py-1">Blowing</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image className="mx-auto"src={ITS} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                IT Support
+                Haul-Off's
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                INSERT BRIEF DESCRIPTION HERE
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">INCLUDING</h4>
+              <p className="text-gray-800 py-1">EXAMPLE</p>
+              <p className="text-gray-800 py-1">EXAMPLE</p>
+              <p className="text-gray-800 py-1">EXAMPLE</p>
+              <p className="text-gray-800 py-1">EXAMPLE</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image className="mx-auto"src={ITC} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                IT Consulting
+                And Much More!
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                We are open to all sort of work please give us a call extra hand.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              
             </div>
           </div>
 
