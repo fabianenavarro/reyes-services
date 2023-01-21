@@ -6,7 +6,7 @@ import RLCLogo from '../public/RLC.png';
 import landscape from '../public/landscape.png';
 import ITS from '../public/moving.png';
 import ITC from '../public/more.png';
-import web1 from "../public/web1.png";
+import web1 from "../public/web1.jpg";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
@@ -28,7 +28,7 @@ export default function Home() {
       <main className=' bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-center text-2xl font-burtons'>Orlie Reyes</h1>
+            <h1 className='text-center text-2xl dark:text-white font-burtons'>Orlie Reyes</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill 
@@ -42,8 +42,8 @@ export default function Home() {
           <div className= "relative mx-auto bg-gradient-to-t from-green-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={RLCLogo}/>
           </div>
-            <h3 className="text-3xl">Services</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>
+            <h3 className="text-3xl dark:text-white">Services</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-xl mx-auto'>
             "Welcome to our landscaping company! We offer a wide range of services including mowing, weed eating, tree trimming, leaf blowing and haul-offs. Our experienced team will create a customized plan for you. Contact us today to schedule your next service and let us take care of your lawn care needs!
             </p>
           </div>
@@ -69,13 +69,13 @@ export default function Home() {
                 Haul-Off's
               </h3>
               <p className="py-2">
-                INSERT BRIEF DESCRIPTION HERE
+              Are you struggling to move heavy items? Let us assist you by providing the necessary equipment to remove them from their current location. 
               </p>
               <h4 className="py-4 text-teal-600">INCLUDING</h4>
-              <p className="text-gray-800 py-1">EXAMPLE</p>
-              <p className="text-gray-800 py-1">EXAMPLE</p>
-              <p className="text-gray-800 py-1">EXAMPLE</p>
-              <p className="text-gray-800 py-1">EXAMPLE</p>
+              <p className="text-gray-800 py-1">Furnite</p>
+              <p className="text-gray-800 py-1">Mesquite</p>
+              <p className="text-gray-800 py-1">Trash</p>
+              <p className="text-gray-800 py-1">Large unwanted items</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image className="mx-auto"src={ITC} width={100} height={100} />
@@ -83,7 +83,7 @@ export default function Home() {
                 And Much More!
               </h3>
               <p className="py-2">
-                We are open to all sort of work please give us a call extra hand.
+                 We are available for any type of job, please contact us if you need an extra hand.
               </p>
               
             </div>
@@ -94,10 +94,8 @@ export default function Home() {
         
         <section>
           <div>
-            <h3 className="text-3xl py-1">Portfolio</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, saepe architecto repudiandae, ut repellendus quis dolorem minima, magni at quidem. Dicta necessitatibus ad corporis veritatis deserunt cupiditate voluptates pariatur?
-            </p>
+            <h3 className="text-3xl dark:text-white py-1">Portfolio</h3>
+            
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-wrap">
             <div className="basis-1/3 flex-1">
